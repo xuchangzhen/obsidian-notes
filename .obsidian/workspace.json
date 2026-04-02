@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32入门/GPIO/点亮LED.md",
+                "file": "STM32入门/GPIO/核心概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "点亮LED"
+              "title": "核心概念"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "7432298910e60085",
   "lastOpenFiles": [
-    "STM32入门/GPIO/核心概念.md",
     "STM32入门/GPIO/点亮LED.md",
+    "STM32入门/GPIO/核心概念.md",
     "STM32入门/GPIO/配置引脚.md",
     "STM32入门/GPIO/如何判断使用哪个引脚.md",
     "STM32入门/GPIO/引脚频率如何设定.md",
