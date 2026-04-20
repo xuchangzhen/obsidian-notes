@@ -1,4 +1,4 @@
-  作为第一个项目 有很多东西都不知道 所以该笔记会涉及很多解释
+	  作为第一个项目 有很多东西都不知道 所以该笔记会涉及很多解释
 
 ## 1. 点灯第一步-先找到一个合适的引脚给他插上去
 
@@ -39,6 +39,8 @@ int main(void) {
 #include "stm32f10x.h"      //就是导入当前设备
 
 GPIO_InitTypeDef GPIO_InitStructure;  //定义一个引脚初始化的结构体 每个引脚在使用前都要进行这个操作
+
+RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);  //开启时钟 注意当前GPIO的功能引脚是在哪个时钟上
 
 **引脚初始化结构体的三个参数**
 
