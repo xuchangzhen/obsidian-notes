@@ -6,7 +6,7 @@
       {
         "id": "a22404cf825b586d",
         "type": "tabs",
-        "dimension": 56.95461200585652,
+        "dimension": 62.664714494875554,
         "children": [
           {
             "id": "298fee726e9dd7ea",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32入门/3. LED定时器闪烁/LED定时器闪烁代码部分以及解读.md",
+                "file": "STM32入门/4. PWM/OCInitStructure参数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LED定时器闪烁代码部分以及解读"
+              "title": "OCInitStructure参数"
             }
           }
         ]
@@ -27,18 +27,18 @@
       {
         "id": "db8fdacafeb34cea",
         "type": "tabs",
-        "dimension": 43.04538799414349,
+        "dimension": 37.335285505124446,
         "children": [
           {
             "id": "1e54acae3aa73020",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "attachments/嵌入式/GPIO内部结构图.jpeg"
+                "file": "attachments/嵌入式/stm32f103c8.pdf"
               },
-              "icon": "lucide-image",
-              "title": "GPIO内部结构图"
+              "icon": "lucide-file-text",
+              "title": "stm32f103c8"
             }
           }
         ]
@@ -205,35 +205,38 @@
   },
   "active": "298fee726e9dd7ea",
   "lastOpenFiles": [
-    "obsidian使用指南/Markdown格式.md",
-    "STM32入门/3. LED定时器闪烁/LED定时器闪烁代码部分以及解读.md",
-    "attachments/嵌入式/GPIO内部结构图.jpeg",
-    "attachments/IMG_20260422_204058.jpg",
-    "attachments/Pasted image 20260422154949.png",
-    "attachments/Pasted image 20260422154526.png",
-    "attachments/Pasted image 20260422110819.png",
-    "attachments/Pasted image 20260422110425.png",
-    "attachments/嵌入式/stm32f103c8.pdf",
-    "STM32入门/GPIO/未命名",
-    "STM32入门/3. LED定时器闪烁",
-    "未命名",
-    "STM32入门/1. GPIO/如何判断使用哪个引脚.md",
-    "STM32入门/1. GPIO/点亮LED.md",
+    "STM32入门/4. PWM/PWM控制舵机代码部分.md",
     "STM32入门/1. GPIO/核心概念.md",
-    "STM32入门/2. 按键控制LED灯/按键控制LED灯代码部分.md",
+    "STM32入门/4. PWM/OCInitStructure参数.md",
+    "STM32入门/1. GPIO/如何判断使用哪个引脚.md",
+    "attachments/Pasted image 20260430092605.png",
+    "attachments/Pasted image 20260430092603.png",
+    "attachments/嵌入式/stm32f103c8.pdf",
+    "STM32入门/1. GPIO/引脚频率如何设定.md",
+    "STM32入门/1. GPIO/点亮LED.md",
+    "STM32入门/1. GPIO/配置引脚.md",
+    "attachments/嵌入式/GPIO内部结构图.jpeg",
+    "STM32入门/3. TIM定时器外设/LED定时器闪烁代码部分以及解读.md",
+    "STM32入门/2. 按键控制/按键控制LED灯代码部分.md",
+    "attachments/Pasted image 20260429201919.png",
+    "attachments/Pasted image 20260428155847.png",
+    "attachments/Pasted image 20260428155524.png",
+    "attachments/Pasted image 20260428155500.png",
+    "attachments/Pasted image 20260428153216.png",
+    "attachments/Pasted image 20260428151651.png",
+    "attachments/PWM1ms.png",
+    "STM32入门/4. PWM",
+    "未命名",
+    "obsidian使用指南/Markdown格式.md",
+    "STM32入门/GPIO/未命名",
+    "STM32入门/3. TIM定时器外设",
     "git/已创建仓库push操作.md",
     "git",
-    "attachments/嵌入式/GPIO内部结构图TC.png",
-    "STM32入门/1. GPIO/配置引脚.md",
-    "STM32入门/1. GPIO/引脚频率如何设定.md",
-    "attachments/嵌入式/STM32F103C8T6引脚定义.jpeg",
     "STM32入门/按键控制LED灯.md",
-    "STM32入门/2. 按键控制LED灯",
+    "STM32入门/2. 按键控制",
     "GPIO核心工作模式.md",
     "().md",
     "attachments/嵌入式/引脚示例.md",
-    "attachments/Pasted image 20260318222440.png",
-    "attachments/嵌入式/引脚示例2.png",
     "引脚示例.md",
     "attachments/嵌入式/引脚示例",
     "attachments/嵌入式/新建文件夹",
@@ -241,14 +244,11 @@
     "attachments/嵌入式/未确认 549106.crdownload",
     "驱动蜂鸣器.md",
     "算法题/一些结论.md",
-    "算法题",
     "I2C.md",
     "无序列表.md",
     "提示词/notebooklm提示词.md",
     "未命名.md",
     "obsidian使用指南/欢迎.md",
-    "C++学习笔记.md",
-    "创建链接.md",
-    "baodu.com.md"
+    "C++学习笔记.md"
   ]
 }
