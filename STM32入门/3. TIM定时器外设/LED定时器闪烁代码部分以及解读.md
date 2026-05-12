@@ -16,14 +16,14 @@ int main(void) {
 	
 	TimeBaseStructure.TIM_Period = 7200 - 1;
 	TimeBaseStructure.TIM_Prescaler = 10000 - 1;
-	TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV4;
+	TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1;
 	TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	
 	TIM_TimeBaseInit(TIM2, &TimeBaseStructure);
 	TIM_Cmd(TIM2, ENABLE);
 	while(1){
-		if (TIM_GetFlagStatus(TIM2, TIM_FLAG_Update) != RESET) {
-			TIM_ClearFlag(TIM2, TIM_FLAG_Update);
+		if (TIM_GetFlagStatus(TIM2, TIM_FLAG_Update) != RESET) {  //检查TIM2标志位是否溢出
+			TIM_ClearFlag(TIM2, TIM_FLAG_Update);  //清除标志位(重置标志位)
 			GPIO_WriteBit(GPIOA, GPIO_Pin_1, 
 				(BitAction)(1-GPIO_ReadOutputDataBit(GPIOA, GPIO_Pin_1))
 			);
