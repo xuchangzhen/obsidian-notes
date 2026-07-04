@@ -99,4 +99,75 @@ int main() {
 | `uint16_t` | unsigned short     | 16 位无符号整数 | 0 ~ 65535                |
 | `uint32_t` | unsigned int       | 32 位无符号整数 | 0 ~ 4294967295           |
 | `uint64_t` | unsigned long long | 64 位无符号整数 | 0 ~ 18446744073709551615 |
+完整版
 
+| 类型名        | 全称                   | 含义        | 取值范围                                       |
+| :--------- | :------------------- | :-------- | :----------------------------------------- |
+| `int8_t`   | `signed char`        | 8 位有符号整数  | -128 ~ 127                                 |
+| `uint8_t`  | `unsigned char`      | 8 位无符号整数  | 0 ~ 255                                    |
+| `int16_t`  | `signed short`       | 16 位有符号整数 | -32768 ~ 32767                             |
+| `uint16_t` | `unsigned short`     | 16 位无符号整数 | 0 ~ 65535                                  |
+| `int32_t`  | `signed int`         | 32 位有符号整数 | -2147483648 ~ 2147483647                   |
+| `uint32_t` | `unsigned int`       | 32 位无符号整数 | 0 ~ 4294967295                             |
+| `int64_t`  | `signed long long`   | 64 位有符号整数 | -9223372036854775808 ~ 9223372036854775807 |
+| `uint64_t` | `unsigned long long` | 64 位无符号整数 | 0 ~ 18446744073709551615                   |
+
+PWM控制蜂鸣器
+```c
+#include "stm32f10x.h"                  // Device header
+
+void Delay(uint32_t count) {
+	for (; count != 0; --count);
+}
+
+void Servo_PWM_Init() {
+	//开启RCC时钟
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+	
+	//初始化GPIOA0引脚
+	GPIO_InitTypeDef GPIO_InitStructure;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_Init(GPIOA, &GPIO_InitStructure);
+	
+	//初始化时基单元
+	TIM_TimeBaseInitTypeDef TimeBase_InitStructure;
+	TimeBase_InitStructure.TIM_Prescaler = 72 - 1;
+	TimeBase_InitStructure.TIM_Period = 1000 - 1;
+	TimeBase_InitStructure.TIM_CounterMode = TIM_CounterMode_Up;
+	TimeBase_InitStructure.TIM_ClockDivision = 1;
+	TimeBase_InitStructure.TIM_RepetitionCounter = 0;
+	TIM_TimeBaseInit(TIM2, &TimeBase_InitStructure);
+	
+	//初始化输出比较器
+	TIM_OCInitTypeDef OC_InitStructure;
+	OC_InitStructure.TIM_OCMode = TIM_OCMode_Toggle;
+	OC_InitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
+	OC_InitStructure.TIM_OutputState = TIM_OutputState_Enable;
+	OC_InitStructure.TIM_Pulse = 0;
+	TIM_OC1Init(TIM2, &OC_InitStructure);
+	TIM_OC1PreloadConfig(TIM2, TIM_OCPreload_Enable);
+	
+	TIM_Cmd(TIM2, ENABLE);
+	
+}
+
+int main(void) {
+    Servo_PWM_Init();
+
+    uint16_t tones[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100}; // ARR 值对应不同音调
+    int n = sizeof(tones)/sizeof(tones[0]);
+
+    while(1) {
+        for(int i = 0; i < n; i++) {
+            TIM_SetAutoreload(TIM2, tones[i]); // 改 ARR → 改音调
+            TIM_SetCounter(TIM2, 0);           // 从 0 开始计数
+            Delay(5000000);                    // 每个音调延时
+        }
+
+    }
+}
+
+```
