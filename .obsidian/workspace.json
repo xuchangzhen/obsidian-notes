@@ -6,7 +6,7 @@
       {
         "id": "a22404cf825b586d",
         "type": "tabs",
-        "dimension": 52.19619326500732,
+        "dimension": 51.17130307467057,
         "children": [
           {
             "id": "298fee726e9dd7ea",
@@ -14,23 +14,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32入门/5. 通信协议/USART/1. UART通信协议.md",
+                "file": "STM32入门/5. 通信协议/I2C/4. 读取内部寄存器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. UART通信协议"
+              "title": "4. 读取内部寄存器"
             }
           }
         ]
       },
       {
-        "id": "db8fdacafeb34cea",
+        "id": "073295ecee07f346",
         "type": "tabs",
-        "dimension": 47.80380673499268,
+        "dimension": 48.82869692532943,
         "children": [
           {
-            "id": "070a65a46583da3f",
+            "id": "432b8543b280566f",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -203,52 +203,52 @@
       "bases:新建数据库": false
     }
   },
-  "active": "298fee726e9dd7ea",
+  "active": "b8945b22734fe4f8",
   "lastOpenFiles": [
+    "嵌入式八股/STM32学习部分/第一阶段学习.md",
+    "STM32入门/5. 通信协议/I2C/1. 初始I2C(初始化I2C).md",
+    "STM32入门/I2C/I2C通信协议.md",
+    "STM32入门/5. 通信协议/I2C/0.I2C基础部分.md",
+    "STM32入门/5. 通信协议/I2C/4. 读取内部寄存器.md",
+    "STM32入门/5. 通信协议/I2C/3. 地址写入寄存器.md",
+    "attachments/嵌入式/STM32F10xxx参考手册（英文）.pdf",
+    "attachments/Pasted image 20260721140615.png",
+    "attachments/Pasted image 20260721140348.png",
+    "attachments/Pasted image 20260721133526.png",
+    "attachments/Pasted image 20260721133227.png",
+    "STM32入门/5. 通信协议/I2C/2. 发送地址检查ACK.md",
+    "attachments/Pasted image 20260721130831.png",
+    "attachments/Pasted image 20260721022819.png",
+    "attachments/Pasted image 20260721022612.png",
+    "attachments/Pasted image 20260721022128.png",
+    "attachments/Pasted image 20260721021209.png",
+    "STM32入门/5. 通信协议/USART/1. UART通信协议.md",
+    "attachments/Pasted image 20260721013659.png",
+    "创建链接.md",
+    "attachments/嵌入式/stm32f103c8.pdf",
+    "STM32入门/I2C/I2C",
+    "STM32入门/3. TIM定时器外设/LED定时器闪烁代码部分以及解读.md",
+    "STM32入门/5. 通信协议/IIC.md",
+    "STM32入门/5. 通信协议/I2C",
+    "STM32入门/4. PWM/PWM控制舵机&蜂鸣器代码部分.md",
+    "STM32入门/4. PWM/OCInitStructure参数.md",
     "STM32入门/5. 通信协议/USART/2. 电脑串口助手发送字符，STM32 接收后控制 LED 或舵机.md",
     "STM32入门/5. 通信协议/USART/3. USART 中断接收.md",
     "git/已创建仓库push操作.md",
     "obsidian使用指南/Markdown格式.md",
-    "attachments/Pasted image 20260716004704.png",
-    "attachments/嵌入式/STM32F10xxx参考手册（英文）.pdf",
-    "attachments/嵌入式/STM32F103C8T6引脚定义.jpeg",
-    "attachments/嵌入式/stm32f103c8.pdf",
     "attachments/嵌入式/STM32F103x8B数据手册（英文）.pdf",
     "STM32入门/1. GPIO/如何判断使用哪个引脚.md",
     "STM32入门/1. GPIO/引脚频率如何设定.md",
     "STM32入门/1. GPIO/核心概念.md",
     "STM32入门/1. GPIO/配置引脚.md",
     "STM32入门/1. GPIO/点亮LED.md",
-    "attachments/Pasted image 20260716001721.png",
-    "attachments/Pasted image 20260715214521.png",
-    "attachments/Pasted image 20260715214328.png",
-    "attachments/Pasted image 20260715213400.png",
-    "attachments/Pasted image 20260715213247.png",
-    "attachments/Pasted image 20260715213235.png",
-    "attachments/Pasted image 20260715213112.png",
-    "attachments/Pasted image 20260715210420.png",
-    "STM32入门/5. 通信协议/USART/1. UART通信协议.md",
-    "STM32入门/4. PWM/OCInitStructure参数.md",
-    "嵌入式八股/STM32学习部分/第一阶段学习.md",
-    "STM32入门/3. TIM定时器外设/LED定时器闪烁代码部分以及解读.md",
-    "STM32入门/4. PWM/PWM控制舵机&蜂鸣器代码部分.md",
-    "STM32入门/5. 通信协议/未命名.md",
     "STM32入门/5. 通信协议/USART",
     "嵌入式八股/STM32学习部分",
     "嵌入式八股",
     "STM32入门/5. 通信协议",
     "STM32入门/2. 按键控制/按键控制LED灯代码部分.md",
     "STM32入门/4. PWM",
-    "STM32入门/GPIO/未命名",
-    "STM32入门/3. TIM定时器外设",
     "STM32入门/按键控制LED灯.md",
-    "GPIO核心工作模式.md",
-    "().md",
-    "attachments/嵌入式/引脚示例.md",
-    "引脚示例.md",
-    "stm32f103c8.md",
-    "驱动蜂鸣器.md",
-    "算法题/一些结论.md",
-    "I2C.md"
+    "GPIO核心工作模式.md"
   ]
 }
