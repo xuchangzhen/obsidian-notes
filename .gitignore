@@ -1,0 +1,11 @@
+# Quartz build output and locally installed dependencies
+quartz-site/node_modules/
+quartz-site/public/
+quartz-site/content/
+quartz-site/.quartz/
+quartz-site/.quartz-cache/
+quartz-site/tsconfig.tsbuildinfo
+
+# Local operating-system metadata
+.DS_Store
+Thumbs.db
