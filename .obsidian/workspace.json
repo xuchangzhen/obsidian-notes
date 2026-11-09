@@ -6,7 +6,7 @@
       {
         "id": "a22404cf825b586d",
         "type": "tabs",
-        "dimension": 72.47437774524158,
+        "dimension": 51.20751341681574,
         "children": [
           {
             "id": "298fee726e9dd7ea",
@@ -14,23 +14,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STM32入门/5. 通信协议/SPI/7. 跨 Sector 任意长度智能写入.md",
+                "file": "STM32入门/1. GPIO/0深入了解GPIO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. 跨 Sector 任意长度智能写入"
+              "title": "0深入了解GPIO"
             }
           }
         ]
       },
       {
-        "id": "073295ecee07f346",
+        "id": "432d97654f28aa4a",
         "type": "tabs",
-        "dimension": 27.525622254758424,
+        "dimension": 48.79248658318426,
         "children": [
           {
-            "id": "432b8543b280566f",
+            "id": "3d56d5a4953984a3",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -91,7 +91,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -207,51 +210,51 @@
   },
   "active": "298fee726e9dd7ea",
   "lastOpenFiles": [
-    "STM32入门/5. 通信协议/SPI/6. 智能写入并保护同扇区旧数据.md",
-    "STM32入门/5. 通信协议/SPI/7. 跨 Sector 任意长度智能写入.md",
-    "STM32入门/5. 通信协议/SPI/4. SPI扇区擦除、页编程、读回校验.md",
-    "STM32入门/5. 通信协议/SPI/5. 跨页任意长度写入.md",
-    "STM32入门/5. 通信协议/SPI/1.GPIO模拟SPI.md",
-    "STM32入门/5. 通信协议/SPI/2. SPI硬件全双工回环测试.md",
-    "STM32入门/5. 通信协议/SPI/3.SPI读取外设寄存器并写入内容.md",
-    "其他学习知识/SRAM.md",
-    "其他学习知识",
-    "attachments/Pasted image 20260814175437.png",
-    "STM32入门/5. 通信协议/SPI/基础.md",
-    "attachments/Pasted image 20260814175220.png",
-    "attachments/Pasted image 20260814175107.png",
-    "attachments/Pasted image 20260814173259.png",
-    "attachments/Pasted image 20260814165728.png",
-    "attachments/Pasted image 20260810134331.png",
-    "attachments/Pasted image 20260810134119.png",
-    "attachments/Pasted image 20260808174846.png",
-    "attachments/Pasted image 20260808172751.png",
-    "attachments/Pasted image 20260808172638.png",
-    "STM32入门/5. 通信协议/I2C/5. PCA9685输出PWM.md",
-    "STM32入门/5. 通信协议/SPI/0. SPI初识.md",
-    "嵌入式八股/STM32学习部分/第一阶段学习.md",
-    "attachments/嵌入式/stm32f103c8.pdf",
-    "attachments/嵌入式/STM32F10xxx参考手册（英文）.pdf",
-    "STM32入门/5. 通信协议/I2C/1. 初始I2C(初始化I2C).md",
-    "STM32入门/5. 通信协议/I2C/0.I2C基础部分.md",
-    "STM32入门/5. 通信协议/SPI",
-    "STM32入门/5. 通信协议/I2C/4. 读取内部寄存器.md",
-    "STM32入门/4. PWM/PWM控制舵机&蜂鸣器代码部分.md",
-    "STM32入门/4. PWM/OCInitStructure参数.md",
-    "STM32入门/5. 通信协议/I2C/3. 地址写入寄存器.md",
-    "STM32入门/5. 通信协议/I2C/2. 发送地址检查ACK.md",
-    "STM32入门/I2C/I2C通信协议.md",
+    "attachments/Pasted image 20261109205036.png",
+    "attachments/Pasted image 20261109204524.png",
+    "attachments/Pasted image 20261109202100.png",
+    "attachments/Pasted image 20261109201347.png",
+    "attachments/Pasted image 20261109201347.png~RF13249234.TMP",
+    "attachments/Pasted image 20261109201017.png",
+    "attachments/Pasted image 20261109201017.png~RF13218225.TMP",
+    "来开始看手册.md",
+    "来开始看手册.md~RF1317cb25.TMP",
+    "attachments/Pasted image 20261103182950.png",
+    "数电模电/三极管与MOS管(场效应管).md",
+    "STM32入门/0-0舵机时钟/未命名.md",
+    "STM32入门/1. GPIO/0深入了解GPIO.md",
+    "STM32入门/1. GPIO/点亮LED.md",
+    "STM32入门/1. GPIO/核心概念.md",
+    "STM32入门/1. GPIO/配置引脚.md",
+    "STM32入门/1. GPIO/如何判断使用哪个引脚.md",
+    "STM32入门/1. GPIO/引脚频率如何设定.md",
+    "STM32入门/-1我怎么还没入门/小细节.md",
+    "网络工程/需求分析.md",
+    "PCB/板子/51最小系统板.md",
+    "网络工程",
+    "git/Commits 规范.md",
+    "attachments/Pasted image 20261008102947.png",
+    "attachments/Pasted image 20261008102955.png",
+    "数电模电/电容-LAPTOP-948IJKUV.md",
+    "attachments/Pasted image 20261001141715.png",
+    "STM32入门/-1我怎么还没入门",
+    "attachments/Pasted image 20261008102954.png",
+    "STM32入门/0-1美的空调控制/未命名.md",
+    "STM32入门/0-1美的空调控制",
+    "obsidian使用指南/欢迎.md",
+    "STM32入门/5. 通信协议/USART/0. 基础.md",
     "STM32入门/5. 通信协议/USART/1. UART通信协议.md",
-    "创建链接.md",
-    "STM32入门/I2C/I2C",
+    "数电模电/电容.md",
+    "STM32入门/5. 通信协议/0. 通信快速入门.md",
+    "attachments/Pasted image 20261015201317.png",
+    "obsidian使用指南/Markdown格式.md",
+    "2026-10-15.md",
+    "attachments/嵌入式/stm32f103c8.pdf",
+    "嵌入式八股/STM32学习部分/第一阶段学习.md",
+    "数电模电",
+    "PCB/边缘电路",
+    "PCB/板子",
     "STM32入门/3. TIM定时器外设/LED定时器闪烁代码部分以及解读.md",
-    "STM32入门/5. 通信协议/IIC.md",
-    "STM32入门/5. 通信协议/I2C",
-    "STM32入门/5. 通信协议/USART/2. 电脑串口助手发送字符，STM32 接收后控制 LED 或舵机.md",
-    "STM32入门/5. 通信协议/USART/3. USART 中断接收.md",
-    "attachments/嵌入式/STM32F103x8B数据手册（英文）.pdf",
-    "STM32入门/5. 通信协议/USART",
-    "嵌入式八股/STM32学习部分",
-    "嵌入式八股"
+    "STM32入门/5. 通信协议/USART/3. USART 中断接收.md"
   ]
 }

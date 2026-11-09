@@ -29,7 +29,7 @@ void Servo_PWM_Init() {
 	TimeBaseInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TimeBaseInitStructure.TIM_ClockDivision = 0;
 	TimeBaseInitStructure.TIM_RepetitionCounter =0;
-	TIM_TimeBaseInit(TIM2, &TimeBaseInitStructure);
+	TIM_TimeBaseInit(TIM2, &TimeBaseInitStructure);2
 	
 	//初始化输出比较器
 	OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;

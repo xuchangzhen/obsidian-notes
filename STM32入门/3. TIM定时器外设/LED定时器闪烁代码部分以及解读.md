@@ -109,6 +109,7 @@ CNT 从 0 开始计数 → 到 ARR 时触发溢出
 | Prescaler    | 16-bit | 0~65535 | 实际分频 = Prescaler + 1 |     |
 | ARR (Period) | 16-bit | 0~65535 | 超过需要调大 Prescaler     |     |
 |              |        |         |                      |     |
+|              |        |         |                      |     |
 16bit 就是 2^16 
 
 

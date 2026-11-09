@@ -1,7 +1,7 @@
 首先创建github仓库
 将git连接到github仓库
 ```
-git remote add origin https://github.com/你的GitHub用户名/Codex-Status-Island.git
+git remote add origin https://github.com/你的GitHub用户名/仓库名.git
 git push -u origin main
 ```
 
@@ -43,3 +43,14 @@ git commit -m "更新 GPIO 笔记"
 git push
 ```
 
+
+让github使用代理(端口根据实际)
+```
+git config --global http.proxy http://127.0.0.1:10808
+git config --global https.proxy http://127.0.0.1:10808
+```
+验证代理是否生效
+```
+git ls-remote https://github.com/git/git.git HEAD
+```
+返回哈希值代表成功

@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "4009285de0d012bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "a22404cf825b586d",
+        "type": "tabs",
+        "dimension": 47.543352601156066,
+        "children": [
+          {
+            "id": "298fee726e9dd7ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STM32入门/0-0舵机时钟/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b15808d0ff6112ac",
+        "type": "tabs",
+        "dimension": 52.45664739884393,
+        "children": [
+          {
+            "id": "3e20c729ddbc0b3e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "attachments/嵌入式/stm32f103c8.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "stm32f103c8"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "78544e43123c5cff",
+    "type": "split",
+    "children": [
+      {
+        "id": "271896c734a38fc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8945b22734fe4f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "06f171d518333b24",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "eb37ea2b772d4438",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.16668701171875
+  },
+  "right": {
+    "id": "f56b0c30079250ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "e67b4739941e073a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89bdbcc738aac114",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "STM32入门/5. 通信协议/UART通信协议.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "UART通信协议 的反向链接列表"
+            }
+          },
+          {
+            "id": "0222c46201a2dc54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian使用指南/Markdown格式.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Markdown格式 的出链列表"
+            }
+          },
+          {
+            "id": "9b9306d0483a894a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8d452ccdd9334736",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d8a746841dd5170f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian使用指南/Markdown格式.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Markdown格式 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "3e20c729ddbc0b3e",
+  "lastOpenFiles": [
+    "STM32入门/0-0舵机时钟/未命名.md",
+    "attachments/嵌入式/stm32f103c8.pdf",
+    "STM32入门/3. TIM定时器外设/LED定时器闪烁代码部分以及解读.md",
+    "STM32入门/0-0舵机时钟",
+    "STM32入门/5. 通信协议/USART/3. USART 中断接收.md",
+    "STM32入门/5. 通信协议/USART/2. 电脑串口助手发送字符，STM32 接收后控制 LED 或舵机.md",
+    "STM32入门/5. 通信协议/USART/1. UART通信协议.md",
+    "STM32入门/5. 通信协议/I2C/5. PCA9685输出PWM.md",
+    "STM32入门/5. 通信协议/SPI/3.SPI读取外设寄存器并写入内容.md",
+    "STM32入门/ADC/3. ADC 连续转换 + 软件滤波.md",
+    "STM32入门/5. 通信协议/SPI/1.GPIO模拟SPI.md",
+    "STM32入门/ADC/1. ADC1_IN0 单通道软件触发读取.md",
+    "STM32入门/ADC/0. 初始.md",
+    "STM32入门/ADC/-1   调试笔记.md",
+    "STM32入门/ADC/6. ADC 控制 PCA9685 舵机.md",
+    "STM32入门/1. GPIO/核心概念.md",
+    "STM32入门/1. GPIO/点亮LED.md",
+    "git/已创建仓库push操作.md",
+    "STM32入门/5. 通信协议/SPI/7. 跨 Sector 任意长度智能写入.md",
+    "STM32入门/5. 通信协议/SPI/6. 智能写入并保护同扇区旧数据.md",
+    "STM32入门/5. 通信协议/SPI/2. SPI硬件全双工回环测试.md",
+    "STM32入门/5. 通信协议/SPI/4. SPI扇区擦除、页编程、读回校验.md",
+    "STM32入门/5. 通信协议/SPI/5. 跨页任意长度写入.md",
+    "attachments/Pasted image 20260913210700.png",
+    "attachments/Pasted image 20260913210355.png",
+    "attachments/Pasted image 20260913210026.png",
+    "attachments/Pasted image 20260913204513.png",
+    "attachments/Pasted image 20260913204440.png",
+    "attachments/Pasted image 20260913203957.png",
+    "attachments/Pasted image 20260913202947.png",
+    "attachments/Pasted image 20260913202934.png",
+    "attachments/Pasted image 20260913202519.png",
+    "attachments/Pasted image 20260913202322.png",
+    "STM32入门/5. 通信协议/I2C/4. 读取内部寄存器.md",
+    "STM32入门/5. 通信协议/I2C/3. 地址写入寄存器.md",
+    "STM32入门/5. 通信协议/I2C/2. 发送地址检查ACK.md",
+    "STM32入门/5. 通信协议/SPI/0. SPI初识.md",
+    "STM32入门/ADC",
+    "quartz-site/site-content",
+    "quartz-site/scripts/prepare-content.mjs",
+    "quartz-site/scripts",
+    "quartz-site/quartz/static/giscus/light.css",
+    "quartz-site/quartz/static/giscus/dark.css",
+    "quartz-site/quartz/plugins/transformers/index.ts",
+    "quartz-site/quartz/plugins/pageTypes/matchers.ts"
+  ]
+}
